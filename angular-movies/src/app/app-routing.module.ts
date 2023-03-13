@@ -29,8 +29,6 @@ const routes: Routes = [
   {path: 'movies/edit/:id', component: EditMovieComponent},
   {path: 'movies/filter', component: MoviesFilterComponent},
   {path: '**', redirectTo: ''},
-  
-
 ];
 
 @NgModule({
