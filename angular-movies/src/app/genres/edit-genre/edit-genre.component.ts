@@ -22,7 +22,7 @@ export class EditGenreComponent implements OnInit {
   }
 
   saveChanges(genreCreationDTO: genreCreationDTO){
-    console.log(genreCreationDTO);
+    
     this.router.navigate(['/genres']);
   }
 }
