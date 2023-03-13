@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MoviesListComponent } from './movies/movies-list/movies-list.component';
 import { GenericListComponent } from './utilities/generic-list/generic-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import {MaterialModule} from './material/material.module';
 import { MenuComponent } from './menu/menu.component';
@@ -47,7 +48,8 @@ import { EditMovieComponent } from './movies/edit-movie/edit-movie.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
